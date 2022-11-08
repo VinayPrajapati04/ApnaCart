@@ -1,0 +1,56 @@
+ #registration_div{
+    width: 30%;
+    margin: auto;
+    margin-top: 5rem;
+}
+#registration_form{
+    display: flex;
+    flex-direction: column;
+ 
+}
+input{
+    height: 2rem;
+    border: none;;
+    background-color: gray;
+    border-radius: 7px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+#submit_button{
+    background-color: teal;
+    margin-top: 1rem;
+} 
+
+
+
+
+
+
+/* 
+#login_form{
+    width: 30%;
+    margin: auto;
+}
+/* #login_form>div{
+    display: flex;
+    flex-direction: columns;
+} */
+
+.label_div {
+
+    display: flex;
+    flex-direction: column;
+    }
+input{
+    height: 2rem;
+    border: none;;
+    background-color: gray;
+    border-radius: 7px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+#submit_button{
+    background-color: teal;
+    margin-top: 1rem;
+
+} */

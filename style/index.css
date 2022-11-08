@@ -1,0 +1,141 @@
+*,html,body,div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_form{
+    width: 30%;
+    margin: auto;
+}
+
+input{
+    height: 2rem;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+#submit{
+    background-color:teal;
+    margin-top: 1rem;
+    width: 30%;
+
+}
+
+#mainDiv{
+    width: 99%;
+    margin: auto;
+    margin-top: 30px;
+}
+#appendData{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    align-items: center;
+    border-radius: 10px;
+    
+  
+}
+#appendData>div{ 
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+   
+} 
+#appendData>div>p{
+    margin-top: 3px;
+}       
+img{
+width: 250px;
+height: 250px;
+border-radius: 10px;
+margin: auto;
+}
+
+#slider>img{
+
+width:100%;
+height: 350px;
+margin: auto;
+margin-bottom: 50px;
+
+}
+
+
+
+@media screen and (min-width: 780px) and (max-width:1180px) {
+
+    #slider{
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        
+    }
+    #appendData{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    #mainDiv{
+        width: 90%;
+    }
+    #appendData>img{
+        width:150px ;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width:780px) {
+
+    #slider{
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        
+    }
+    #appendData{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    #mainDiv{
+        width: 90%;
+    }
+    #appendData>img{
+        width:150px ;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width:540px) {
+    #slider{
+        width: 100%;
+        height: 200px; 
+    }
+    #slider>img{
+        width: 100%;
+        height: 200px;
+    }
+    #appendData{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 30px;
+    }
+    #mainDiv{
+        width: 90%;
+    }
+    #appendData>img{
+        width:150px ;
+        height: 150px;
+    }
+}
