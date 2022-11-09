@@ -46,6 +46,8 @@ const handlePriceCalculation =() => {
 
         const span = document.querySelector("#totalPrice_span");
         span.innerText = sum;
+
+        localStorage.setItem('totalPrice',JSON.stringify(sum))
 }
 
 handlePriceCalculation();
@@ -161,7 +163,20 @@ const getData = () => {
 
 
     const cartArr = JSON.parse(localStorage.getItem('cart'))
-    append(cartArr)
+    append(cartArr);
 }
 
 getData()
+
+
+const addressbutton = document.querySelector("#addressPage_button");
+addressbutton.addEventListener("click",()=>{
+
+    const cartArr = JSON.parse(localStorage.getItem("cart"));
+    if(!cartArr || cartArr.length === 0) {
+        alert("Nothing in cart")
+        return;
+    }
+
+    window.location.href="addressPage.html"
+});

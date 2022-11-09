@@ -1,10 +1,10 @@
 
-import loginCheck from "..//scripts/loginCheck";
+// import loginCheck from "..//scripts/loginCheck";
 
-const status = loginCheck(events);
-if(!status){
-    window.location.href ="login.html";
-}
+// const status = loginCheck(events);
+// if(!status){
+//     window.location.href ="login.html";
+// }
 
 
 

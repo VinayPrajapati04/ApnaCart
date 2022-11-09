@@ -1,0 +1,35 @@
+
+
+#addressForm_form{
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#addressForm_form>div{
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+}
+
+label{
+    margin-bottom: 0.3rem;
+}
+
+input,select{
+    height: 2rem;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#submit{
+    background-color: aqua;
+    margin-top: 1rem;
+   
+}
