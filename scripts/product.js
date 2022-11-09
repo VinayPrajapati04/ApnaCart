@@ -40,7 +40,7 @@ const handlelAddToCartClick=(el) => {
 
     //store it on local storage with key
     localStorage.setItem('cart',JSON.stringify(cartArr))
-
+    target.innerHTML =navbar();
     alert("Data added to cart");
 }
 

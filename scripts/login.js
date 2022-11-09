@@ -54,8 +54,8 @@ const handleFormSubmit = async (events) => {
     }
 
     const payload ={
-        email,
-        password,
+        email : "eve.holt@reqres.in",
+        password :" cityslicka",
     }
 
     console.log(payload)

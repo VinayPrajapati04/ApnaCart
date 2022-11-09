@@ -1,8 +1,8 @@
-// import navbar from "../components/navbar.js";
+import navbar from "../components/navbar.js";
 
-// const target = document.querySelector("#navbar")
+const target = document.querySelector("#navbar")
 
-// target.innerHTML = navbar()
+target.innerHTML = navbar()
 
 
 // import loginCheck from "../scripts/loginCheck";
@@ -26,7 +26,9 @@ const handleRemove=( el)=>{
     localStorage.setItem('cart',JSON.stringify(cartArr))
 
     append(cartArr)
-    handlePriceCalculation(); 
+    handlePriceCalculation();
+    target.innerHTML = navbar()
+
     
 }
 
