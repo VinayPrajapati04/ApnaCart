@@ -1,23 +1,13 @@
 
-// import loginCheck from "..//scripts/loginCheck";
-
-// const status = loginCheck(events);
-// if(!status){
-//     window.location.href ="login.html";
-// }
 
 
-
-import navbar from "../components/navbar.js";
-
-const target = document.querySelector("#navbar")
-
-target.innerHTML = navbar()
 
 
 const handlelAddToCartClick=(el) => {
 
     // alert('I am running')
+
+    
     let cartArr = JSON.parse(localStorage.getItem('cart')) || []
 
 
@@ -82,7 +72,7 @@ const append = (data) => {
 
 const getData = async () => {
     try {
-        const response = await fetch('https://fakestoreapi.com/products');
+        const response = await fetch('https://relince-data-sever-fp05-318.onrender.com/products');
         const data = await response.json();
         console.log(data)
         append(data)
