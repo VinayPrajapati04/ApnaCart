@@ -3,7 +3,7 @@ import loginCheck from "../utils/loginCheck.js";
 
 const status = loginCheck();
 if(!status){
-  
+    alert("Please Login First to")
     window.location.href ="login.html";
 }
 
@@ -79,6 +79,9 @@ const handleQuantity=(el, type)=> {
         //decrement
         cartArr= cartArr.map((element)=>{
             if(element.id == el.id){
+                if(element.qty == 1){
+                    return {...element}
+                }
                 return {...element,qty:element.qty-1}
 
             }else{
@@ -130,6 +133,7 @@ const append = (data) => {
 
         removeButton.style.backgroundColor = 'red'
         removeButton.style.color = 'white'
+     
 
         increatmentButton.style.background = 'teal'
         decrementButton.style.backgroundColor ='teal'

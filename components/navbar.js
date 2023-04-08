@@ -18,7 +18,7 @@ const navbar = () => {
 
     return `<div class="navbar_div">   
     <div>
-      <h1>ApnaCart</h1>
+    <h1 ><a href="./index.html">ApnaCart</a></h1>
     </div>
     
     <div id="fix">

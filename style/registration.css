@@ -20,11 +20,10 @@ input{
     background-color: teal;
     margin-top: 1rem;
 } 
-
-
-
-
-
+#NotificationForSignUp{
+    text-align: center;
+    border: 1px solid red;
+}
 
 /* 
 #login_form{
@@ -53,4 +52,4 @@ input{
     background-color: teal;
     margin-top: 1rem;
 
-} */
+} 

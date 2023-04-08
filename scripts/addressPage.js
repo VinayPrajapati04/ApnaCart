@@ -44,10 +44,10 @@ const handlePaymentMode = () => {
         
 
         const html = `<label for="">Card Number</label>
-        <input type="text" id="cardNumber">
+        <input type="number" id="cardNumber">
 
         <label for="">CVV</label>
-        <input type="text" id="cvv">
+        <input type="number" id="cvv">
 
 
         <label for="">Expiry Date</label>
