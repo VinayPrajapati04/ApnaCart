@@ -18,7 +18,7 @@ const navbar = () => {
 
     return `<div class="navbar_div">   
     <div>
-      <h1> Sasta Flipkart</h1>
+      <h1>ApnaCart</h1>
     </div>
     
     <div id="fix">
@@ -34,7 +34,7 @@ const navbar = () => {
                     <a href="login.html">Login</a>
                 </li>
                 <li>
-                    <a href="cart.html">Cart ${length ? `:${length}` : ""}</a>
+                    <a href="cart.html">Cart ${length ? `- ${length}` : ""}</a>
                 </li>
                 <li>
                     <a href="registration.html">Sign Up</a>

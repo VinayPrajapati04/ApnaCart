@@ -94,6 +94,6 @@ const handleFormSubmit = async (events) => {
 form.addEventListener('submit', handleFormSubmit);
 
 
-// form.addEventListener('submit', handleFormSubmit)
+form.addEventListener('submit', handleFormSubmit)
 
 

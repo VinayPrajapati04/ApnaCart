@@ -1,17 +1,8 @@
 
-import loginCheck from "../utils/loginCheck.js";
 
-const status = loginCheck();
-if(!status){
-  
-    window.location.href ="login.html";
-}
 
-import navbar from "../components/navbar.js";
 
-const target = document.querySelector("#navbar")
 
-target.innerHTML = navbar()
 
 
 const handleRemove=( el)=>{
