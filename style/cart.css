@@ -86,3 +86,106 @@ button{
     width: 160px;
     margin: auto;  
 }
+
+
+/* Responsive code */
+@media screen and (min-width: 541px) and (max-width:1130px) {
+ 
+ 
+    .navbar_div{
+    
+        width: 95%;
+        margin: auto;
+        margin-right: 200px;
+      
+    }
+    #navbarTag{
+        font-size: 20px;
+    }
+    #logo{
+        font-size: 30px;
+    }
+ 
+    #cartDetails_div{
+     width: 95%;
+     margin: auto;
+     margin-top: 30px;
+ 
+    }
+ 
+ 
+    /* Product div section */
+ 
+    #cartProducts_div{
+        display:grid;
+        grid-template-columns: repeat(2,2fr);
+        margin-top: 50px;
+    
+    }
+   
+    #products_div>img{
+        width:100px ;
+        height: 150px;
+    }
+ 
+ }
+ 
+
+
+
+
+@media screen and (min-width: 280px) and (max-width:540px) {
+ 
+   #heading{
+       text-align: center;
+       font-size: 30px;
+       margin-top: 50px;
+       margin-bottom: 50px;
+   }
+   #navbar>.navbar_div{
+   
+       width: 100%;
+       margin: auto;
+     
+   }
+   #navbarTag{
+       font-size: 12px;
+   }
+   #logo{
+       font-size: 18px;
+   }
+
+   #cartDetails_div{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+   }
+   #addressPage_button{
+    width: 130px;
+    text-align: center;
+   }
+   #CartCountNumberDiv{
+
+    font-size: 12px;
+    margin-bottom: 20px;
+   }
+
+
+   /* Product div section */
+
+   #cartProducts_div{
+       display:grid;
+       grid-template-columns: repeat(1,1fr);
+       margin-top: 50px;
+   
+   }
+  
+   #products_div>img{
+       width:100px ;
+       height: 150px;
+   }
+
+}
+
+

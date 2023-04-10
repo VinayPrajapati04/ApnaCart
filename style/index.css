@@ -73,7 +73,7 @@ margin-bottom: 50px;
 
 
 
-@media screen and (min-width: 780px) and (max-width:1180px) {
+@media screen and (min-width: 360px) and (max-width:740px) {
 
     #slider{
         width: 100%;
@@ -83,7 +83,7 @@ margin-bottom: 50px;
     }
     #appendData{
         display:grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,2fr);
 
     }
     #mainDiv{
@@ -105,7 +105,7 @@ margin-bottom: 50px;
     }
     #appendData{
         display:grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,2fr);
 
     }
     #mainDiv{
@@ -128,7 +128,7 @@ margin-bottom: 50px;
     }
     #appendData{
         display:grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,2fr);
         margin-top: 30px;
     }
     #mainDiv{

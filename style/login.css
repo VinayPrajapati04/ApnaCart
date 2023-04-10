@@ -23,3 +23,106 @@ input{
     margin-top: 1rem;
 
 }
+::placeholder{
+    color: rgb(192, 185, 185);
+    font-size: 15px;
+    
+  }
+
+ 
+ @media screen and (min-width: 541px) and (max-width:1130px) {
+ 
+        .navbar_div{
+           
+               width: 100%;
+               margin: auto;
+             
+           }
+           #navbarTag{
+               font-size: 20px;
+           }
+           #logo{
+               font-size: 25px;
+           }
+        
+           #login_div{
+        
+         margin: auto;
+         width: 600px;
+         height: 400px;
+           }
+        
+          #login_form{
+           
+            width: 400px;
+            text-align: center;
+         
+            font-size: 25px;
+          }
+          ::placeholder{
+            color: rgb(192, 185, 185);
+            font-size: 15px;
+            
+          }
+        
+          #submit_button{
+            width: 400px ;
+            height: 40px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+          } 
+        
+        }
+        
+
+
+@media screen and (min-width: 280px) and (max-width:540px) {
+ 
+.navbar_div{
+   
+       width: 100%;
+       margin: auto;
+     
+   }
+   #navbarTag{
+       font-size: 10px;
+   }
+   #logo{
+       font-size: 15px;
+   }
+
+    #login_div{
+
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    }
+
+    #login_form{
+    
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+::placeholder{
+    color: rgb(192, 185, 185);
+    font-size: 12px;
+    
+  }
+
+
+    #submit_button{
+    width: 150px ;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    }  
+
+}

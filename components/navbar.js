@@ -18,26 +18,26 @@ const navbar = () => {
 
     return `<div class="navbar_div">   
     <div>
-    <h1 ><a href="./index.html">ApnaCart</a></h1>
+    <h1 id="logo" ><a href="./index.html">ApnaCart</a></h1>
     </div>
     
     <div id="fix">
         <div >
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a id="navbarTag" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="product.html">Product</a>
+                    <a id="navbarTag" href="product.html">Product</a>
                 </li>
                 <li>
-                    <a href="login.html">Login</a>
+                    <a id="navbarTag" href="login.html">Login</a>
                 </li>
                 <li>
-                    <a href="cart.html">Cart ${length ? `- ${length}` : ""}</a>
+                    <a id="navbarTag" href="cart.html">Cart ${length ? `- ${length}` : ""}</a>
                 </li>
                 <li>
-                    <a href="registration.html">Sign Up</a>
+                    <a id="navbarTag" href="registration.html">Sign Up</a>
                 </li>
             </ul>
         </div>

@@ -3,10 +3,7 @@
 }
 
 #Otp_Page{
-    /* display: grid;
-    grid-template-columns: repeat(1,1fr); */
     display: flex;
-   
     width: 300px;
     height: 100px;
     margin: auto;
@@ -16,8 +13,6 @@
 }
 
 .label_div{
-    /* display: flex; */
-    /* border: 1px solid blue ; */
     display: grid;
     grid-template-rows: repeat(1,4fr);
     gap: 90px;
@@ -49,3 +44,102 @@ input{
 #submit_button:hover{
     background-color: rgb(159, 223, 235);
 }
+
+
+@media screen and (min-width: 541px) and (max-width:1130px) {
+
+    .navbar_div{
+    
+       width: 100%;
+       margin: auto;
+     
+    }
+    #navbarTag{
+       font-size: 20px;
+    }
+    #logo{
+       font-size: 30px;
+    }
+    #heading{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #Otp_Page{
+    
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    }
+    input{
+        background-color: gray;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #submit_button{
+    width: 250px ;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aqua;
+    }  
+    
+    }
+    
+
+@media screen and (min-width: 280px) and (max-width:540px) {
+
+    .navbar_div{
+    
+       width: 100%;
+       margin: auto;
+     
+    }
+    #navbarTag{
+       font-size: 13px;
+    }
+    #logo{
+       font-size: 20px;
+    }
+    #heading{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #Otp_Page{
+    
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    }
+    input{
+        background-color: gray;
+        color: white;
+        font-size: 20px;
+
+    }
+    
+    #submit_button{
+    width: 150px ;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aqua;
+    }  
+    
+    }
+    

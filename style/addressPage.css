@@ -33,3 +33,121 @@ input,select{
     margin-top: 1rem;
    
 }
+
+
+
+@media screen and (min-width: 541px) and (max-width:1130px) {
+
+    .navbar_div{
+      width: 100%;
+       margin: auto;
+     
+    }
+    #navbarTag{
+       font-size: 20px;
+    }
+    #logo{
+       font-size: 30px;
+    }
+    
+    #form_div{
+    
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    }
+    
+    #addressForm_form{
+    
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    }
+    input{
+        background-color: gray;
+    }
+    select{
+        background-color: gray;
+        width: 400px;
+    }
+    
+    ::placeholder{
+    color: rgb(192, 185, 185);
+    font-size: 12px;
+    
+    
+    }
+    #submit{
+    width: 150px ;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    }  
+    
+    }
+    
+
+
+    
+
+
+@media screen and (min-width: 280px) and (max-width:540px) {
+
+.navbar_div{
+
+   width: 100%;
+   margin: auto;
+ 
+}
+#navbarTag{
+   font-size: 15px;
+}
+#logo{
+   font-size: 20px;
+}
+
+#form_div{
+
+margin: auto;
+width: 400px;
+height: 400px;
+}
+
+#addressForm_form{
+
+width: 300px;
+font-size: 20px;
+text-align: center;
+
+
+}
+input{
+    background-color: gray;
+}
+select{
+    background-color: gray;
+    width: 300px;
+}
+
+::placeholder{
+color: rgb(192, 185, 185);
+font-size: 12px;
+
+
+}
+#submit{
+width: 150px ;
+height: 40px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: bold;
+}  
+
+}
