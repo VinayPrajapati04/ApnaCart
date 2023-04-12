@@ -39,6 +39,15 @@ const navbar = () => {
                 <li>
                     <a id="navbarTag" href="registration.html">Sign Up</a>
                 </li>
+
+
+                <li>
+                <a id="logo" href="AboutProject.html"> <img src="./Images/greenExcamationmark.png" alt="">  About Project</a>
+            </li>
+
+
+
+       
             </ul>
         </div>
     </div>

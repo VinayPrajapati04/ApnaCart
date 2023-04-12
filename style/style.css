@@ -7,6 +7,10 @@
     font-family: sans-serif;
 }
 
+#logo{
+background-color: rgb(231, 36, 36);
+}
+
 .navbar_div {
     display: flex;
     justify-content: space-around;

@@ -3,8 +3,8 @@ import loginCheck from "../utils/loginCheck.js";
 
 const status = loginCheck();
 if(!status){
-    alert("Please login to Access Product Page to purches items")
     window.location.href ="login.html";
+    alert("Please LogIn first to Access Product Page")
 }
 
 
@@ -31,15 +31,6 @@ const renderLoadIndicator =() => {
 }
 
 renderLoadIndicator()
-
-
-
-
-
-
-
-
-
 
 
 const handlelAddToCartClick=(el) => {
