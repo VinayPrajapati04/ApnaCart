@@ -16,6 +16,32 @@ const target = document.querySelector("#navbar")
 target.innerHTML = navbar()
 
 
+const renderLoadIndicator =() => {
+
+
+ const cont = document.querySelector("#loading_div")
+
+ const h2 = document.createElement("h2");
+ h2.innerText ="Loading...."
+ h2.style.textAlign = "center"
+ h2.style.marginTop="2rem"
+
+ cont.append(h2)
+
+}
+
+renderLoadIndicator()
+
+
+
+
+
+
+
+
+
+
+
 const handlelAddToCartClick=(el) => {
 
     // alert('I am running')
@@ -86,9 +112,26 @@ const getData = async () => {
         const response = await fetch('https://fakestoreapi.com/products');
         const data = await response.json();
         console.log(data)
+        const cont = document.querySelector("#loading_div");
+        cont.innerHTML=null;
+        
         append(data)
     } catch (error) {
         console.log(error)
+
+        const cont = document.querySelector("#loading_div");
+        cont.innerHTML=null;
+
+        const h2 = document.createElement("h2")
+        h2.innerText="Error-404";
+
+        h2.style.textAlign ="center";
+        h2.style.marginTop = "2rem";
+
+        cont.append(h2);
+         
     }
 }
+
+
 getData()

@@ -13,7 +13,7 @@
 input{
     height: 2rem;
     border: none;;
-    background-color: gray;
+    background-color: rgb(216, 215, 215);
     border-radius: 7px;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
@@ -24,7 +24,7 @@ input{
 
 }
 ::placeholder{
-    color: rgb(192, 185, 185);
+    color: rgb(95, 93, 93);
     font-size: 15px;
     
   }
@@ -32,50 +32,50 @@ input{
  
  @media screen and (min-width: 541px) and (max-width:1130px) {
  
-        .navbar_div{
-           
-               width: 100%;
-               margin: auto;
-             
-           }
-           #navbarTag{
-               font-size: 20px;
-           }
-           #logo{
-               font-size: 25px;
-           }
+    .navbar_div{
         
-           #login_div{
-        
-         margin: auto;
-         width: 600px;
-         height: 400px;
-           }
-        
-          #login_form{
-           
-            width: 400px;
-            text-align: center;
-         
-            font-size: 25px;
-          }
-          ::placeholder{
-            color: rgb(192, 185, 185);
-            font-size: 15px;
-            
-          }
-        
-          #submit_button{
-            width: 400px ;
-            height: 40px;
+            width: 100%;
             margin: auto;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            font-size: 20px;
-            font-weight: bold;
-          } 
-        
+          
         }
+        #navbarTag{
+            font-size: 20px;
+        }
+        #logo{
+            font-size: 25px;
+        }
+    
+        #login_div{
+    
+      margin: auto;
+      width: 600px;
+      height: 400px;
+        }
+    
+      #login_form{
+        
+        width: 400px;
+        text-align: center;
+      
+        font-size: 25px;
+      }
+      ::placeholder{
+        color: rgb(94, 92, 92);
+        font-size: 15px;
+        
+      }
+    
+      #submit_button{
+        width: 400px ;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: bold;
+      } 
+    
+    }
         
 
 
@@ -123,6 +123,7 @@ input{
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: bold;
+    background-color: rgb(85, 82, 82);
     }  
 
 }
