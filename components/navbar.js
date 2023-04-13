@@ -42,7 +42,7 @@ const navbar = () => {
 
 
                 <li>
-                <a id="AboutProjectTxt" href="AboutProject.html"> <img id="logo_exclamationMark" src="./Images/greenExcamationmark.png" alt="GreenExcalmatiomMark">  About Project</a>
+                <a id="AboutProjectTxt" href="AboutProjects.html"> <img id="logo_exclamationMark" src="./Images/greenExcamationmark.png" alt="GreenExcalmatiomMark">  About Project</a>
             </li>
 
 
