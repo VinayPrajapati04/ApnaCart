@@ -7,10 +7,6 @@
     font-family: sans-serif;
 }
 
-#logo{
-background-color: rgb(231, 36, 36);
-}
-
 .navbar_div {
     display: flex;
     justify-content: space-around;
@@ -35,6 +31,16 @@ li{
 a{
     text-decoration: none;
 }
+
+
+#logo_exclamationMark{
+    width: 15px;
+    height: 15px;
+    
+    }
+    #AboutProjectTxt{
+        color: green;
+    }
 
 @media screen and (min-width: 540px) and (max-width:1180px) {
 
@@ -61,7 +67,7 @@ a{
 
 }
 
-@media screen and (min-width: 360px) and (max-width:540px) {
+@media screen and (min-width: 280px) and (max-width:540px) {
 
     #navbar{
         width: 87%;

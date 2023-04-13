@@ -31,7 +31,7 @@ const navbar = () => {
                     <a id="navbarTag" href="product.html">Product</a>
                 </li>
                 <li>
-                    <a id="navbarTag" href="login.html">Login</a>
+                    <a id="navbarTag" href="login.html">LogIn</a>
                 </li>
                 <li>
                     <a id="navbarTag" href="cart.html">Cart ${length ? `- ${length}` : ""}</a>
@@ -42,7 +42,7 @@ const navbar = () => {
 
 
                 <li>
-                <a id="logo" href="AboutProject.html"> <img src="./Images/greenExcamationmark.png" alt="">  About Project</a>
+                <a id="AboutProjectTxt" href="AboutProject.html"> <img id="logo_exclamationMark" src="./Images/greenExcamationmark.png" alt="GreenExcalmatiomMark">  About Project</a>
             </li>
 
 

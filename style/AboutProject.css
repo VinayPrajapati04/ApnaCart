@@ -1,0 +1,93 @@
+@media screen and (min-width: 280px) and (max-width:580px) {
+ 
+   
+    #navbar{
+        width: 400px;
+        font-size: 10px;
+        /* margin: auto; */
+            
+    }
+    ul{
+
+        font-size: 12px;
+    }
+    
+    h1{
+        font-size: 10px
+    }
+
+    #fix{
+        margin-left: 20px;
+    }
+    #AboutProjectTxt{
+        font-size: 8px;
+    }
+    #logo_exclamationMark{
+      width: 8px;
+      height: 8px;
+    }
+
+  #Section_one{
+    width: 400px;
+  }
+
+    #gmailTxt{
+        font-size: 8px;
+        width: 150px;
+        margin-top: 30px;
+        
+    }
+    #welcomeTxt_div{
+        width:100%;
+        height: 70px;
+        background-color: rgba(26,32,44,255);
+        
+    }
+    #welcomeTxt{
+    border: 1px solid rgb(33, 180, 224);
+     font-size: 13px;
+     height: 20px;
+    }
+    #HiLogo{
+        width: 12px;
+    }
+
+    #headingTxt{
+        font-size: 13px;
+    }
+    #LogoDiv{
+        width: 280px;
+        display: flex;
+       border: 1px solid red;
+      
+    }
+#ToolsLogos{
+    width: 25px;
+    margin-left: 20px;
+}
+#handEmojiText{
+    font-size: 10px;
+}
+   
+#ActivitiesText{
+    font-size: 10px;
+    margin-left: 10px;
+}
+  #TextSectionFour{
+    font-size: 10px;
+   
+  } 
+  #sectionFiveTxt{
+    font-size: 15px;
+ 
+  }
+  #sectionFourImg{
+    width: 20px;
+    height: 20px;
+  }
+   
+    /* Product div section */
+   
+  
+   
+   }
