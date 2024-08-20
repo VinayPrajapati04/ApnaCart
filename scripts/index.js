@@ -7,6 +7,21 @@ target.innerHTML = navbar()
 
 
 
+  // hum burgar coding
+
+const hamMunu = document.querySelector(".ham-menu");
+
+const offScreenMenu = document.querySelector(".navbar_div");
+
+
+hamMunu.addEventListener('click',()=>{
+  hamMunu.classList.toggle('active');
+  offScreenMenu.classList.toggle("active")
+})
+
+
+
+
 function slideShow() {
 
 
@@ -39,6 +54,7 @@ function slideShow() {
     },2000)
   }
   slideShow();
+
 
 
 
